@@ -1,15 +1,15 @@
-*{
-    margin: 2%;
-}
 main{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    /* justify-content: justify; */
+    margin: 7%;
 }
 p{
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.capitular{
     text-indent: 20px;
 }
 .capitular::first-letter{
@@ -35,7 +35,7 @@ video{
     border-style: groove;
     border-width: 6px;
     border-color: blueviolet;
-    box-shadow: 0 15px 20px rgba(90, 28, 148, 0.630);
+    box-shadow: 0 15px 20px rgba(90, 28, 148, 0.700);
 }
 audio{
     margin-left: auto;
@@ -46,7 +46,7 @@ audio{
     border-width: 6px;
     border-color: blueviolet;
     /* color: blue; */
-    box-shadow: 0 15px 20px rgba(90, 28, 148, 0.630);
+    box-shadow: 0 15px 20px rgba(90, 28, 148, 0.700);
 }
 li{
     list-style-type: upper-roman;
